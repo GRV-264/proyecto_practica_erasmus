@@ -18,3 +18,6 @@ Este es un proyecto web desarrollado con **Laravel** y **React** que permite a l
 🔹 **Frontend:** React.  
 🔹 **Base de datos:** MySQL.  
 🔹 **Estilización:** CSS / Bootstrap.  
+
+## 🌱 Rama de Desarrollo  
+📌 El códico del proyecto se encuentra actualmente en la rama **dev**.  
