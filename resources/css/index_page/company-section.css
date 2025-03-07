@@ -1,0 +1,57 @@
+/* ------------------------------------------------------- */
+/* ----------------- COMPANY SECTION --------------------- */
+/* ------------------------------------------------------- */
+.company-section-headline {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f172a;
+}
+
+.company-section-paragraph {
+    font-family: Roboto;
+    font-size: 21.3px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f172a;
+}
+
+.icon-img{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+    .company-section-paragraph {
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .company-section-paragraph {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .company-section-paragraph {
+        font-size: 15px;
+    }
+
+    .icon-img{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height: 25%;
+        width: 25%;
+    }
+}

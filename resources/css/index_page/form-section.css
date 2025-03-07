@@ -1,0 +1,95 @@
+/* ------------------------------------------------------- */
+/* ------------------- FORM SECTION ---------------------- */
+/* ------------------------------------------------------- */
+.section-form {
+    padding: 3rem 0;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p-text-form {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #001c06;
+    line-height: 1;
+    letter-spacing: 3px;
+    text-align: center
+}
+
+.secondary-headline-form {
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 800;
+    color: #001c06;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.label-text-form {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    color: #001c06;
+    margin-top: 30px;
+}
+
+.input-form {
+    border-radius: 18.6px;
+    border: 3px dotted #323332;
+    border-spacing: 10px;
+    background-color: rgba(0, 28, 6, 0.09);
+}
+
+.image-form {
+    background-image: url('../../../public/img/form-section/group-1707478187.svg');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: bottom left;
+}
+
+.custom-error-form {
+    width: 14%;
+    position: absolute;
+}
+
+#invia {
+    margin-top: 30px;
+}
+
+
+@media (max-width: 767px) {
+    .image-form {
+        background-image: none;
+    }
+    .secondary-headline-form{
+        margin-bottom: 60px;
+    }
+
+    .custom-text{
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .container-form{
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .container-text{
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .secondary-headline-form{
+        font-size: 32px;
+    }
+
+    .label-text-form {
+        font-size: 16px;
+    }
+
+}

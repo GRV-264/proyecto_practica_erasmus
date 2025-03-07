@@ -1,0 +1,129 @@
+/* ------------------------------------------------------- */
+/* -----------------------  MODAL ------------------------ */
+/* ------------------------------------------------------- */
+.modal_bg {
+    background-color: #0009;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.modal_content {
+    width: 500px;
+    background-color: white !important;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.modal_title {
+    font-family: Inter;
+    font-size: 28.7px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.14px;
+    color: #1f2937;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.secondary-text-message-modal {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.09px;
+    color: #6b7280;
+}
+
+.modal_email {
+    text-align: left !important;
+    margin-bottom: 20px;
+}
+
+.label_text_form {
+    font-family: Roboto;
+    font-size: 18px !important;
+    font-weight: 500;
+    line-height: 1.11;
+    text-align: center;
+    color: #001c06;
+    margin-top: 5%;
+}
+
+.input_email {
+    border-radius: 18.6px;
+    border: 3px dotted #323332;
+    border-spacing: 10px;
+    background-color: rgba(0, 28, 6, 0.09);
+}
+
+.custom_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 66.6px;
+    background-color: #00fe53;
+
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #001c06;
+}
+
+.modal_footer {
+    padding: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.custom-close-button {
+    font-size: 1rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+    height: 2rem;
+    background-color: #0009;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.custom-close-button:focus {
+    outline: none;
+}
+
+.custom-error-download {
+    position: absolute;
+}
+
+@media (max-width: 480px) {
+    .modal_content {
+        width: 300px;
+        background-color: white !important;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}

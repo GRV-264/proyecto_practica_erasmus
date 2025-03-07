@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------ */
+/* ---------- Flash messages ---------- */
+/* ------------------------------------ */
+.alert.fixed-top {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 1000;
+    transition: top 0.3s ease-in-out;
+}

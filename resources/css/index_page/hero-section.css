@@ -1,0 +1,65 @@
+/* ------------------------------------------------------- */
+/* ------------------ HERO SECTION ----------------------- */
+/* ------------------------------------------------------- */
+.graphics {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section-headline {
+    font-family: Roboto;
+    /* font-size: 74.6px; */
+    font-size: 5vw;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-section-paragraph {
+    font-family: Roboto;
+    /* font-size: 30px; */
+    font-size: 2vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.second-img{
+    display: none;
+}
+
+
+@media (max-width: 498px) {
+    .second-img{
+        display: block;
+    }
+
+    .first-img{
+        display: none;
+    }
+
+    .hero-section-headline {
+        font-size: 34px;
+    }
+
+    .hero-section-paragraph {
+        font-size: 15px;
+        color: #e7e5e5;
+    }
+}

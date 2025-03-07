@@ -1,0 +1,60 @@
+/* ------------------------------------------------------- */
+/* ------------------ BANNER SECTION --------------------- */
+/* ------------------------------------------------------- */
+.section-banner {
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 106.5px;
+    padding: 139.8px 106.5px 143.8px;
+    background-color: #00fe53;
+}
+
+.section-text-banner {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 42.6px;
+    padding: 0;
+}
+
+.secondary-headline-banner {
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: center;
+    color: #001c06;
+}
+
+.secondary-headline-banner .text-style-1-banner {
+    font-size: 4.5vw;
+    line-height: 1.1;
+    color: #0f172a;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .section-banner {
+        padding: 55px 100px 55px;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-banner {
+        padding: 25px 50px 25px;
+    }
+}
+
+@media (max-width: 300px) {
+    .section-banner {
+        padding: 15px 25px 15px;
+    }
+}
