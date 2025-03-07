@@ -1,4 +1,4 @@
-# 📌 GRV-264 - Proyecto Práctica Erasmus  
+# 📌 GRV-264 - Proyecto Prácticas Erasmus  
 
 ## Descripción  
 Este es un proyecto web desarrollado con **Laravel** y **React** que permite a los usuarios:  
